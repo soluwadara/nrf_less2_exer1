@@ -595,7 +595,7 @@ rule C_STATIC_LIBRARY_LINKER__kernel_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/siji/ncs/toolchains/1f9b40e71a/usr/local/bin/cmake --regenerate-during-build -S/home/siji/ncs/v2.4.2/nrf/samples/nrf5340/netboot -B/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/b0n
+  command = /home/siji/ncs/toolchains/1f9b40e71a/usr/local/bin/cmake --regenerate-during-build -S/home/siji/ncs/v2.4.2/nrf/samples/nrf5340/netboot -B/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/b0n
   description = Re-running CMake...
   generator = 1
 

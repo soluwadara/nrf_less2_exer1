@@ -39,16 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/zephyr/arch/arch/arm/core/aarch32/cortex_m/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/zephyr/arch/arch/arm/core/aarch32/cortex_m/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/zephyr/arch/arch/arm/core/aarch32/cortex_m/cmse/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/zephyr/arch/arch/arm/core/aarch32/cortex_m/cmse/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/zephyr/arch/arch/arm/core/aarch32/mpu/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/zephyr/arch/arch/arm/core/aarch32/mpu/cmake_install.cmake")
 endif()
 

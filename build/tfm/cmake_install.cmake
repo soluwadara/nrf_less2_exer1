@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install")
+  set(CMAKE_INSTALL_PREFIX "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,73 +39,73 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/lib/ext/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/lib/ext/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/lib/fih/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/lib/fih/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/tools/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/tools/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/secure_fw/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/secure_fw/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/interface/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/interface/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/platform/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/platform/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/platform/ext/accelerator/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/platform/ext/accelerator/cmake_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/outputs/")
+   "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/outputs/")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/outputs" TYPE DIRECTORY MESSAGE_NEVER FILES "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/bin/")
+file(INSTALL DESTINATION "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/outputs" TYPE DIRECTORY MESSAGE_NEVER FILES "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/bin/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/lib/s_veneers.o")
+   "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/lib/s_veneers.o")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/lib" TYPE FILE MESSAGE_NEVER FILES "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/secure_fw/s_veneers.o")
+file(INSTALL DESTINATION "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/lib" TYPE FILE MESSAGE_NEVER FILES "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/secure_fw/s_veneers.o")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/psa/client.h;/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/psa/error.h")
+   "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/psa/client.h;/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/psa/error.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/psa" TYPE FILE MESSAGE_NEVER FILES
+file(INSTALL DESTINATION "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/psa" TYPE FILE MESSAGE_NEVER FILES
     "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/include/psa/client.h"
     "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/include/psa/error.h"
     )
@@ -113,26 +113,26 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/psa_manifest/sid.h")
+   "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/psa_manifest/sid.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/psa_manifest" TYPE FILE MESSAGE_NEVER FILES "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/generated/interface/include/psa_manifest/sid.h")
+file(INSTALL DESTINATION "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/psa_manifest" TYPE FILE MESSAGE_NEVER FILES "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/generated/interface/include/psa_manifest/sid.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/tfm_api.h;/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/tfm_ns_interface.h;/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/psa_config.h")
+   "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/tfm_api.h;/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/tfm_ns_interface.h;/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/psa_config.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include" TYPE FILE MESSAGE_NEVER FILES
+file(INSTALL DESTINATION "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include" TYPE FILE MESSAGE_NEVER FILES
     "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/include/tfm_api.h"
     "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/include/tfm_ns_interface.h"
     "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/include/psa_config.h"
@@ -141,62 +141,62 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/tfm_ns_client_ext.h")
+   "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/tfm_ns_client_ext.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include" TYPE FILE MESSAGE_NEVER FILES "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/include/tfm_ns_client_ext.h")
+file(INSTALL DESTINATION "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include" TYPE FILE MESSAGE_NEVER FILES "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/include/tfm_ns_client_ext.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/config_impl.h")
+   "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/config_impl.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include" TYPE FILE MESSAGE_NEVER FILES "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/generated/interface/include/config_impl.h")
+file(INSTALL DESTINATION "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include" TYPE FILE MESSAGE_NEVER FILES "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/generated/interface/include/config_impl.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/tfm_psa_call_pack.h")
+   "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/tfm_psa_call_pack.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include" TYPE FILE MESSAGE_NEVER FILES "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/include/tfm_psa_call_pack.h")
+file(INSTALL DESTINATION "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include" TYPE FILE MESSAGE_NEVER FILES "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/include/tfm_psa_call_pack.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/psa/framework_feature.h")
+   "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/psa/framework_feature.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/psa" TYPE FILE MESSAGE_NEVER FILES "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/generated/interface/include/psa/framework_feature.h")
+file(INSTALL DESTINATION "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/psa" TYPE FILE MESSAGE_NEVER FILES "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/generated/interface/include/psa/framework_feature.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/psa/crypto_extra.h;/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/psa/crypto_compat.h;/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/psa/crypto.h;/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/psa/crypto_client_struct.h;/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/psa/crypto_sizes.h;/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/psa/crypto_struct.h;/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/psa/crypto_types.h;/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/psa/crypto_values.h")
+   "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/psa/crypto_extra.h;/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/psa/crypto_compat.h;/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/psa/crypto.h;/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/psa/crypto_client_struct.h;/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/psa/crypto_sizes.h;/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/psa/crypto_struct.h;/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/psa/crypto_types.h;/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/psa/crypto_values.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/psa" TYPE FILE MESSAGE_NEVER FILES
+file(INSTALL DESTINATION "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/psa" TYPE FILE MESSAGE_NEVER FILES
     "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/include/psa/crypto_extra.h"
     "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/include/psa/crypto_compat.h"
     "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/include/psa/crypto.h"
@@ -210,74 +210,74 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/tfm_crypto_defs.h")
+   "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/tfm_crypto_defs.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include" TYPE FILE MESSAGE_NEVER FILES "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/include/tfm_crypto_defs.h")
+file(INSTALL DESTINATION "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include" TYPE FILE MESSAGE_NEVER FILES "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/include/tfm_crypto_defs.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include/tfm_platform_api.h")
+   "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include/tfm_platform_api.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/include" TYPE FILE MESSAGE_NEVER FILES "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/include/tfm_platform_api.h")
+file(INSTALL DESTINATION "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/include" TYPE FILE MESSAGE_NEVER FILES "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/include/tfm_platform_api.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/src/tfm_psa_ns_api.c")
+   "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/src/tfm_psa_ns_api.c")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/src" TYPE FILE MESSAGE_NEVER FILES "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/src/tfm_psa_ns_api.c")
+file(INSTALL DESTINATION "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/src" TYPE FILE MESSAGE_NEVER FILES "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/src/tfm_psa_ns_api.c")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/src/tfm_ns_interface.c.example")
+   "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/src/tfm_ns_interface.c.example")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/src" TYPE FILE MESSAGE_NEVER FILES "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/src/tfm_ns_interface.c.example")
+file(INSTALL DESTINATION "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/src" TYPE FILE MESSAGE_NEVER FILES "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/src/tfm_ns_interface.c.example")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/src/tfm_crypto_api.c")
+   "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/src/tfm_crypto_api.c")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/src" TYPE FILE MESSAGE_NEVER FILES "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/src/tfm_crypto_api.c")
+file(INSTALL DESTINATION "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/src" TYPE FILE MESSAGE_NEVER FILES "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/src/tfm_crypto_api.c")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/src/tfm_platform_api.c")
+   "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/src/tfm_platform_api.c")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install/interface/src" TYPE FILE MESSAGE_NEVER FILES "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/src/tfm_platform_api.c")
+file(INSTALL DESTINATION "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install/interface/src" TYPE FILE MESSAGE_NEVER FILES "/home/siji/ncs/v2.4.2/modules/tee/tf-m/trusted-firmware-m/interface/src/tfm_platform_api.c")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -288,5 +288,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

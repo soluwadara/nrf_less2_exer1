@@ -10,7 +10,7 @@ ELF Header:
   Version:                           0x1
   Entry point address:               0x1001de9
   Start of program headers:          52 (bytes into file)
-  Start of section headers:          553784 (bytes into file)
+  Start of section headers:          553752 (bytes into file)
   Flags:                             0x5000200, Version5 EABI, soft-float ABI
   Size of this header:               52 (bytes)
   Size of program headers:           32 (bytes)
@@ -42,14 +42,14 @@ Section Headers:
   [18] .debug_abbrev     PROGBITS        00000000 0448a7 008abe 00      0   0  1
   [19] .debug_line       PROGBITS        00000000 04d365 011b49 00      0   0  1
   [20] .debug_frame      PROGBITS        00000000 05eeb0 001efc 00      0   0  4
-  [21] .debug_str        PROGBITS        00000000 060dac 007cd3 01  MS  0   0  1
-  [22] .debug_loc        PROGBITS        00000000 068a7f 0118da 00      0   0  1
-  [23] .debug_ranges     PROGBITS        00000000 07a360 0029e0 00      0   0  8
-  [24] .ARM.attributes   ARM_ATTRIBUTES  00000000 07cd40 000032 00      0   0  1
+  [21] .debug_str        PROGBITS        00000000 060dac 007cb9 01  MS  0   0  1
+  [22] .debug_loc        PROGBITS        00000000 068a65 0118da 00      0   0  1
+  [23] .debug_ranges     PROGBITS        00000000 07a340 0029e0 00      0   0  8
+  [24] .ARM.attributes   ARM_ATTRIBUTES  00000000 07cd20 000032 00      0   0  1
   [25] .last_section     PROGBITS        01005450 005530 000004 00   A  0   0  1
-  [26] .symtab           SYMTAB          00000000 07cd74 0052d0 10     27 583  4
-  [27] .strtab           STRTAB          00000000 082044 0051c2 00      0   0  1
-  [28] .shstrtab         STRTAB          00000000 087206 000132 00      0   0  1
+  [26] .symtab           SYMTAB          00000000 07cd54 0052d0 10     27 583  4
+  [27] .strtab           STRTAB          00000000 082024 0051c2 00      0   0  1
+  [28] .shstrtab         STRTAB          00000000 0871e6 000132 00      0   0  1
 Key to Flags:
   W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
   L (link order), O (extra OS processing required), G (group), T (TLS),

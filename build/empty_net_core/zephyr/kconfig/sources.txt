@@ -1,3 +1,7 @@
+/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/Kconfig/Kconfig.dts
+/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/Kconfig/Kconfig.modules
+/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/Kconfig/Kconfig.shield
+/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/Kconfig/Kconfig.shield.defconfig
 /home/siji/ncs/toolchains/1f9b40e71a/opt/zephyr-sdk/cmake/zephyr/Kconfig
 /home/siji/ncs/v2.4.2/modules/debug/TraceRecorder/config/Kconfig
 /home/siji/ncs/v2.4.2/modules/debug/TraceRecorder/kernelports/Zephyr/Kconfig
@@ -2233,7 +2237,3 @@
 /home/siji/ncs/v2.4.2/zephyr/subsys/usb/host/Kconfig
 /home/siji/ncs/v2.4.2/zephyr/subsys/usb/usb_c/Kconfig
 /home/siji/ncs/v2.4.2/zephyr/subsys/zbus/Kconfig
-/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/Kconfig/Kconfig.dts
-/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/Kconfig/Kconfig.modules
-/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/Kconfig/Kconfig.shield
-/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/Kconfig/Kconfig.shield.defconfig

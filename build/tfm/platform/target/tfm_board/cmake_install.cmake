@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/tfm/install")
+  set(CMAKE_INSTALL_PREFIX "/home/siji/Personal_Project/nrf_less2_exer1/build/tfm/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

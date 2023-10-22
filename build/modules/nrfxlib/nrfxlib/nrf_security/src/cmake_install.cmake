@@ -39,21 +39,21 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/modules/nrfxlib/nrfxlib/nrf_security/src/core/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/modules/nrfxlib/nrfxlib/nrf_security/src/core/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/modules/nrfxlib/nrfxlib/nrf_security/src/drivers/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/modules/nrfxlib/nrfxlib/nrf_security/src/drivers/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/modules/nrfxlib/nrfxlib/nrf_security/src/legacy/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/modules/nrfxlib/nrfxlib/nrf_security/src/legacy/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/modules/nrfxlib/nrfxlib/nrf_security/src/psa/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/modules/nrfxlib/nrfxlib/nrf_security/src/psa/cmake_install.cmake")
 endif()
 

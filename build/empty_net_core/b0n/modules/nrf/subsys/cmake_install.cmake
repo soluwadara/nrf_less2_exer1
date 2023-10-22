@@ -39,56 +39,56 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/bootloader/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/bootloader/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/bootloader/bl_crypto/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/bootloader/bl_crypto/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/bootloader/bl_validation/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/bootloader/bl_validation/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/bootloader/bl_storage/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/bootloader/bl_storage/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/net/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/net/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/dfu/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/dfu/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/pcd/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/pcd/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/fw_info/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/fw_info/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/shell/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/shell/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/debug/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/debug/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/partition_manager/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/empty_net_core/b0n/modules/nrf/subsys/partition_manager/cmake_install.cmake")
 endif()
 

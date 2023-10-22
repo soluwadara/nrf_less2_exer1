@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/mcuboot/modules/cmsis/CMSIS/Core/cmake_install.cmake")
+  include("/home/siji/Personal_Project/nrf_less2_exer1/build/mcuboot/modules/cmsis/CMSIS/Core/cmake_install.cmake")
 
 endif()
 
