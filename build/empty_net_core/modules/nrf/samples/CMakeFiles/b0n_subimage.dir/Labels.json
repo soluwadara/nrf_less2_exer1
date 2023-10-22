@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/CMakeFiles/b0n_subimage"
+		},
+		{
+			"file" : "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/CMakeFiles/b0n_subimage.rule"
+		},
+		{
+			"file" : "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/CMakeFiles/b0n_subimage-complete.rule"
+		},
+		{
+			"file" : "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-build.rule"
+		},
+		{
+			"file" : "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-configure.rule"
+		},
+		{
+			"file" : "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-download.rule"
+		},
+		{
+			"file" : "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-install.rule"
+		},
+		{
+			"file" : "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-mkdir.rule"
+		},
+		{
+			"file" : "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-patch.rule"
+		},
+		{
+			"file" : "/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"b0n_subimage"
+		],
+		"name" : "b0n_subimage"
+	}
+}

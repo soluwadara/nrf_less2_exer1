@@ -1,0 +1,13 @@
+# Target labels
+ b0n_subimage
+# Source files and their labels
+/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/CMakeFiles/b0n_subimage
+/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/CMakeFiles/b0n_subimage.rule
+/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/CMakeFiles/b0n_subimage-complete.rule
+/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-build.rule
+/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-configure.rule
+/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-download.rule
+/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-install.rule
+/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-mkdir.rule
+/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-patch.rule
+/home/siji/personal_projects/ncs-fund/v2.x.x/lesson2/fund_less2_exer1/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-update.rule
