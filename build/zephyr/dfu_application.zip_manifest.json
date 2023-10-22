@@ -1,6 +1,6 @@
 {
     "format-version": 0,
-    "time": 1697948014,
+    "time": 1697951249,
     "files": [
         {
             "type": "application",
@@ -11,9 +11,9 @@
             "slot_index_primary": "1",
             "slot_index_secondary": "2",
             "version_MCUBOOT": "0.0.0+0",
-            "size": 94504,
+            "size": 94480,
             "file": "app_update.bin",
-            "modtime": 1697948014
+            "modtime": 1697951249
         },
         {
             "type": "application",
@@ -26,13 +26,13 @@
             "version": "1",
             "size": 18708,
             "file": "net_core_app_update.bin",
-            "modtime": 1697947909
+            "modtime": 1697951207
         }
     ],
     "name": "nrf_less2_exer1",
     "firmware": {
         "zephyr": {
-            "revision": "1273a1b690464ea43cfb934a4fad8aa507e35a32-dirty"
+            "revision": "4bac10ebad34a8ae31a09ea9f13822e0e1a8bffc-dirty"
         },
         "nrf": {
             "revision": "75adfe8909fbac1c2e0ede465448d1ce2821dfa9"
